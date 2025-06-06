@@ -1,0 +1,33 @@
+span{
+    color: var(--red);
+}
+
+#avatar{
+    /* position: absolute; */
+}
+
+.foto-circular {
+border:2px solid var(--red);
+top: 120px; 
+object-fit: cover;   /* Faz a imagem preencher o espaço sem distorcer */
+border-radius: 50%;   /* Deixa a imagem redonda (círculo perfeito) */
+height: 112px;
+
+position: absolute; 
+width: 96px;
+height: 96px;
+left: calc(50% - 96px/2);/* Centraliza horizontalmente com base em 96px */
+top: calc(50% - 96px/2); /* Centraliza verticalmente com base em 96px */
+
+flex: none; /* Impede que o item cresça ou encolha automaticamente */
+order: 0;  /* Define a ordem desse item no flex (0 = posição padrão) */     
+flex-grow: 0; /* Impede que esse item cresça dentro do espaço disponível */  
+}
+
+.icone-perfil{
+    
+  position:absolute;
+}
+
+ 
+
