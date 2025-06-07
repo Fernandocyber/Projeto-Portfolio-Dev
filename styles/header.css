@@ -1,6 +1,6 @@
 
 #info {
-  background-image: url(../assets/images/background-intro.png);
+  background-image: url(../assets/imagens/Background_Intro.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -31,7 +31,7 @@
   position: absolute;
   width: 4rem;
   height: 3.5rem;
-  background-image: url(../assets/code.png);
+  background-image: url(../assets/icones/Vector\ verdinho\ foto\ perfil.png);
   background-repeat: no-repeat;
   background-size: contain;
   right: 0.6rem;
